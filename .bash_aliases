@@ -1,6 +1,6 @@
 shopt -s expand_aliases
 brc() {
-    vim ~/.bashrc_aliases
+    vim ~/.bash_aliases
     source ~/.bashrc
 }
 alias vrc="vim ~/.vimrc"
@@ -33,3 +33,4 @@ alias sshpi="ssh pi@192.168.8.202 -X"
 export PATH=~/Pobrane/pycharm-2021.1.2/bin/:$PATH
 
 stty -ixon
+alias vcshup="vcsh base add -u && vcsh commit && vcsh push"

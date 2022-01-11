@@ -1,9 +1,9 @@
 shopt -s expand_aliases
 brc() {
-    vim ~/Dropbox/.bashrc_aliases
+    vim ~/.bashrc_aliases
     source ~/.bashrc
 }
-alias vrc="vim ~/Dropbox/.vimrc"
+alias vrc="vim ~/.vimrc"
 alias setclip="xargs echo -n | xclip -selection c"
 alias setclipa="xclip -selection c"
 alias getclip="xclip -selection c -o"

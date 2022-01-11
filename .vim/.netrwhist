@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/tmp/squashfs-root/usr/conda/lib/python3.6/site-packages/Pillow-2.2.0.dist-info'
+let g:netrw_dirhist_8='/home/szymon/apples-greensort/.circleci'
+let g:netrw_dirhist_7='/tmp/greensort_records'
+let g:netrw_dirhist_6='/home/szymon/Pobrane/apples_test/apples-greensort/pybind'
+let g:netrw_dirhist_5='/home/szymon/apples-greensort/.circleci'
+let g:netrw_dirhist_4='/home/szymon/kociolek/arduino/sevseg'
+let g:netrw_dirhist_3='/home/szymon/blueberry/.git'
+let g:netrw_dirhist_2='/home/szymon/Pobrane/spinnaker-2.3.0.77-amd64'
+let g:netrw_dirhist_1='/home/szymon/apples-greensort/.circleci'

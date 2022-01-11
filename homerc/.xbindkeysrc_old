@@ -1,0 +1,27 @@
+#  use xbindkeys -k to come up with numerical codes
+#  use xprop | grep -i class for a specifiic window class
+#  killall xbindkeys && xbindkeys -f ~/Dropbox/homerc/.xbindkeysrc aby zresetować
+
+#"wmctrl -a Chromium || firefox"
+". ~/Dropbox/xbindhelp.sh && next_window_with_class firefox || firefox"
+  m:0xc + c:30
+  Control+Alt + u
+
+#"wmctrl -a cb0xx || gnome-terminal"
+". ~/Dropbox/xbindhelp.sh && next_window_with_class gnome-terminal || next_window_with_name VIM || gnome-terminal"
+  m:0xc + c:44
+  Control+Alt + j
+
+#"wmctrl -x -a jetbrains"
+". ~/Dropbox/xbindhelp.sh && next_window_with_class jetbrains"
+  m:0x1c + c:31
+  Control+Alt+Mod2 + i
+
+#"wmctrl -a VIM || wmctrl -a cb0xx"
+#". ~/Dropbox/xbindhelp.sh && next_window_with_name VIM"
+#  m:0x1c + c:45
+#  Control+Alt+Mod2 + k
+
+# "wmctrl -x -a clion || clion.sh"
+#   m:0x1c + c:46
+#   Control+Alt+Mod2 + l

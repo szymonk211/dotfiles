@@ -74,5 +74,5 @@ Plug 'morhetz/gruvbox'
 Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
         
-colorscheme darcula
+silent! colorscheme darcula
 

@@ -1,1 +1,1 @@
-xbindkeys -f ~/.xbindkeysrc 
+xbindkeys -f ~/homerc/.xbindkeysrc 

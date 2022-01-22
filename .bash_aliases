@@ -34,3 +34,7 @@ export PATH=~/Pobrane/pycharm-2021.1.2/bin/:$PATH
 
 stty -ixon
 alias vcshup="vcsh base add -u && vcsh commit && vcsh push"
+
+#  Use vim as notepad
+export VISUAL=vim
+export EDITOR="$VISUAL"

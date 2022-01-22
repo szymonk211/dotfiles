@@ -1,18 +1,18 @@
 #  use xbindkeys -k to come up with numerical codes
 #  use xprop | grep -i class for a specifiic window class
-#  killall xbindkeys && xbindkeys -f ~/Dropbox/homerc/.xbindkeysrc aby zresetować
+#  killall xbindkeys && xbindkeys -f ~/homerc/.xbindkeysrc aby zresetować
 
 #"wmctrl -a Chromium || firefox"
-"/usr/bin/python3 ~/Dropbox/homerc/xbindhelp.py firefox --autostart firefox"
+"/usr/bin/python3 ~/homerc/xbindhelp.py firefox --autostart firefox"
   m:0xc + c:30
   Control+Alt + u
 
 #"wmctrl -a cb0xx || gnome-terminal"
-"/usr/bin/python3 ~/Dropbox/homerc/xbindhelp.py gnome-terminal --autostart gnome-terminal"
+"/usr/bin/python3 ~/homerc/xbindhelp.py gnome-terminal --autostart gnome-terminal"
   m:0xc + c:44
   Control+Alt + j
 
 #"wmctrl -x -a jetbrains"
-"/usr/bin/python3 ~/Dropbox/homerc/xbindhelp.py jetbrains"
+"/usr/bin/python3 ~/homerc/xbindhelp.py jetbrains"
   m:0x1c + c:31
   Control+Alt+Mod2 + i

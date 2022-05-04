@@ -6,5 +6,5 @@ https://germano.dev/dotfiles/
 
 ```
 sudo apt install vcsh
-vcsh clone git@github.com:szymonk211/dotfiles.git base
+vcsh clone https://github.com/szymonk211/dotfiles.git base
 ```

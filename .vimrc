@@ -65,6 +65,7 @@ nnoremap <C-q> :wq!<cr>
 call plug#begin('~/.vim/plugged')
 " Plug 'easymotion/vim-easymotion'
 Plug 'doums/darcula'
+Plug 'github/copilot.vim'
 " Plug 'morhetz/gruvbox'
 " Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
